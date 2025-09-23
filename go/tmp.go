@@ -57,7 +57,7 @@ func handle(chars []byte) string {
 	return ret
 }
 
-func main() {
+func main2() {
 	// t := []byte{'a', 'a', 'b', 'b', 'c', 'c', 'c'}
 	// t := []byte{'a', '2', 'b', '2', 'c', '3'}
 	t := []byte{'a', '2', 'b', 'c', '3'}

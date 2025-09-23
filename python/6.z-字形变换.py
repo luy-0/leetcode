@@ -31,3 +31,8 @@ class Solution:
 
 # @lc code=end
 
+if __name__ == "__main__":
+    s = "PAYPALISHIRING"
+    numRows = 3
+    ret = Solution().convert(s, numRows)
+    print(ret)

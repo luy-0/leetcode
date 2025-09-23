@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Go: Run Current File",  // 自定义名称
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${file}",  // 关键点：自动绑定到当前打开的文件
+            "args": [],
+            "env": {},
+            "showLog": true
+        },
+        {
+            "name": "Python: Run Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",  // 关键：自动识别当前文件
+            "console": "integratedTerminal",  // 输出到终端
+            "justMyCode": false  // 显示第三方库的调试信息（可选）
+        }
+    ]
+}
